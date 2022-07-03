@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Navigation Menu with Search Bar</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+<body>
+	<input type="checkbox" id="check">
+	<nav>
+		<div class="icon">Centre <b style="color: red;">Forma</b>tion</div>
+		<div class="search_box">
+			<input type="search" placeholder="Search here">
+			<span class="fa fa-search"></span>
+		</div>
+		<ol>
+			<li><a href=>home</a></li>
+			<li><a href=>contact</a></li>
+			<li><a href=>services</a></li>
+			<li><a href=>about</a></li>
+			<li><a href=>login here</a></li>
+		</ol>
+		<label for="check" class="bar">
+			<span class="fa fa-bars" id="bars"></span>
+			<span class="fa fa-times" id="times"></span>
+		</label>
+	</nav>
+	<div class="wrapper">
+         <div class="carousel owl-carousel">
+            <div class="card card-1">
+               A
+            </div>
+            <div class="card card-2">
+               B
+            </div>
+            <div class="card card-3">
+               C
+            </div>
+            <div class="card card-4">
+               D
+            </div>
+            <div class="card card-5">
+               E
+            </div>
+						<div class="card card-6">
+               F
+            </div>
+         </div>
+      </div>
+		</div>
+      <script>
+         $(".carousel").owlCarousel({
+           margin: 20,
+           loop: true,
+           autoplay: true,
+           autoplayTimeout: 2000,
+           autoplayHoverPause: true,
+           responsive: {
+             0:{
+               items:1,
+               nav: false
+             },
+             600:{
+               items:2,
+               nav: false
+             },
+             1000:{
+               items:3,
+               nav: false
+             }
+           }
+         });
+      </script>
+			<div class="container">
+
+			    <h1 class="heading">Nos Formations</h1>
+
+			    <div class="box-container">
+
+			        <div class="box">
+			            <img src="image/icon-1.png" alt="">
+			            <h3> Carré </h3>
+			            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+			            <a href="#" class="btn">read more</a>
+			        </div>
+
+			        <div class="box">
+			            <img src="image/icon-2.png" alt="">
+			            <h3>Carré</h3>
+			            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+			            <a href="#" class="btn">read more</a>
+			        </div>
+
+			        <div class="box">
+			            <img src="image/icon-3.png" alt="">
+			            <h3>Carré</h3>
+			            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+			            <a href="#" class="btn">read more</a>
+			        </div>
+
+			        <div class="box">
+			            <img src="image/icon-4.png" alt="">
+			            <h3>Carré</h3>
+			            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+			            <a href="#" class="btn">read more</a>
+			        </div>
+
+			        <div class="box">
+			            <img src="image/icon-5.png" alt="">
+			            <h3>Carré</h3>
+			            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+			            <a href="#" class="btn">read more</a>
+			        </div>
+
+			        <div class="box">
+			            <img src="image/icon-6.png" alt="">
+			            <h3>Carré</h3>
+			            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+			            <a href="#" class="btn">read more</a>
+			        </div>
+							<div class="box">
+			            <img src="image/icon-6.png" alt="">
+			            <h3>Carré</h3>
+			            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+			            <a href="#" class="btn">read more</a>
+			        </div><div class="box">
+			            <img src="image/icon-6.png" alt="">
+			            <h3>Carré</h3>
+			            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+			            <a href="#" class="btn">read more</a>
+			        </div><div class="box">
+			            <img src="image/icon-6.png" alt="">
+			            <h3>Carré</h3>
+			            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+			            <a href="#" class="btn">read more</a>
+			        </div><div class="box">
+			            <img src="image/icon-6.png" alt="">
+			            <h3>Carré</h3>
+			            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+			            <a href="#" class="btn">read more</a>
+			        </div><div class="box">
+			            <img src="image/icon-6.png" alt="">
+			            <h3>Carré</h3>
+			            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+			            <a href="#" class="btn">read more</a>
+			        </div>
+							<div class="box">
+			            <img src="image/icon-6.png" alt="">
+			            <h3>Carré</h3>
+			            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+			            <a href="#" class="btn">read more</a>
+			        </div>
+
+			    </div>
+
+			</div>
+</body>
+</html>
